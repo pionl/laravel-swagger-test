@@ -1,0 +1,30 @@
+{
+    "name": "pion/laravel-swagger-test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Kluska",
+            "email": "martin@kluska.cz"
+        },
+        {
+            "name": "João Gilberto Magalhães",
+            "email": "joao@byjg.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ByJG\\ApiTools\\Laravel\\": "src/"
+        }
+    },
+    "require": {
+        "byjg/swagger-test": "dev-allow-custom-test-cases#1ae9739",
+        "laravel/framework": "*"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/pionl/php-swagger-test"
+        }
+    ]
+}
