@@ -1,6 +1,6 @@
 # Laravel Swagger Test
 
-> Underlaying logic uses [PHP Swagger Test](https://github.com/byjg/php-swagger-test) from [byjg](https://github.com/byjg)
+> Underlying logic uses [PHP Swagger Test](https://github.com/byjg/php-swagger-test) from [byjg](https://github.com/byjg)
 
 Test your routes using Laravel's underlying request testing (without making real request) against your API schema.
 
@@ -9,6 +9,24 @@ Test your routes using Laravel's underlying request testing (without making real
 > How to make tests and which OpenAPI is supported check the [PHP Swagger Test](https://github.com/byjg/php-swagger-test).
  
  At the time of writing this readme OpenAPI 3 is partially supported.
+ 
+ ## Install
+ 
+ 1. Add a custom repository for php-swagger-test with internal improvements. (In future it could be merged).
+ 
+    ```
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/pionl/php-swagger-test"
+        }
+    ]
+    ```
+ 2. Require the package
+    
+    ```
+    compsoer require pion/laravel-swagger-test
+    ```
  
  ## Usage
  
