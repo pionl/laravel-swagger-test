@@ -18,7 +18,7 @@
         }
     },
     "require": {
-        "byjg/swagger-test": "dev-allow-custom-requester#86a1e029e2b569960c877c89cebb0527b284a7b5",
+        "byjg/swagger-test": "dev-allow-custom-requester#f3e0b4bcb10ca2815634f7198acca2cfc5f8298c",
         "laravel/framework": "*"
     },
     "repositories": [
@@ -26,5 +26,6 @@
             "type": "git",
             "url": "https://github.com/pionl/php-swagger-test"
         }
-    ]
+    ],
+    "description": "Test your routes using Laravel's underlying request testing (without making real request) against your API schema."
 }
