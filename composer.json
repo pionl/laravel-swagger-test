@@ -18,7 +18,7 @@
         }
     },
     "require": {
-        "byjg/swagger-test": "dev-allow-custom-requester#f3e0b4bcb10ca2815634f7198acca2cfc5f8298c",
+        "byjg/swagger-test": "dev-allow-custom-requester#482db43de86e2b599a9334de1fa9e5f8769de879",
         "laravel/framework": "*"
     },
     "repositories": [
